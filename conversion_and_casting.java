@@ -10,37 +10,40 @@ class conversion_and_casting {
         // a = b;
 
         // b = a; // integer has a bigger range than byte therefore you cannot convert
-        // something big into something small
+        // something big into something small.
 
         System.out.println(a);
 
-        byte j = (byte) a; // The format in the () is what you are converting the variable type to, but
+        byte c = (byte) a; // The format in the () is what you are converting the variable type to, but
                            // this need to be within the parameters of the original variable, this type of
                            // conversion is called casting.
 
-        System.out.println(j);
+        System.out.println(c);
 
         int d = 257;
 
-        byte k = (byte) d;
+        byte e = (byte) d;
 
-        System.out.println(k); // The format in the () is what you are converting the variable type to, but
+        System.out.println(e); // The format in the () is what you are converting the variable type to, but
                                // this need to be within the parameters of the original variable, this type of
                                // conversion is called casting.
 
-        int c = 12;
-
-        System.out.println(b);
-
-        b = (byte) c;
-
-        System.out.println(b);
-
         float f = 5.6f;
 
-        int x = (int) f; // when converting from float (decimal numbers) to integers, you lose the
-                         // decimal value and are only left with the whole number
+        int g = (int) f; // when converting from float (decimal numbers) to integers you lose the decimal
+                         // value and are only left with the whole number.
 
-        System.out.println(x);
+        System.out.println(g);
+
+        // Type promotion - java will automatically change the variable type to the type
+        // you specify for the result.
+
+        byte h = 10;
+        byte i = 30;
+
+        int result = h * i;
+
+        System.out.println(result);
+
     };
 }

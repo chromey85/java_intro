@@ -3,7 +3,8 @@ public class operators {
         int num1 = 7;
         int num2 = 5;
 
-        // Standard operators
+        // Standard operators - most, if not all the operators are the same as
+        // JavaScript
 
         // int resultAdd = num1 + num2;
         // System.out.println(resultAdd);
@@ -39,6 +40,11 @@ public class operators {
         // int result1 = num2++; // This will first fetch the value of num2, THEN it
         // will increment it
         // System.out.println(result1);
+
+        // boolean result = num1 < num2;
+        boolean result = num1 > num2;
+
+        System.out.println(result);
 
     }
 }

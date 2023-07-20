@@ -2,8 +2,11 @@ public class operators {
     public static void main(String args[]) {
         int num1 = 7;
         int num2 = 5;
+        int num3 = 5;
+        int num4 = 9;
 
-        // Standard operators - most, if not all the operators are the same as
+        // ------------------ Standard operators - most, if not all the operators are
+        // the same as
         // JavaScript
 
         // int resultAdd = num1 + num2;
@@ -42,8 +45,13 @@ public class operators {
         // System.out.println(result1);
 
         // boolean result = num1 < num2;
-        boolean result = num1 > num2;
+        // boolean result = num1 > num2;
 
+        // System.out.println(result);
+
+        // ------------------ Logical Operators
+
+        boolean result = num1 > num2 && num3 > num4;
         System.out.println(result);
 
     }

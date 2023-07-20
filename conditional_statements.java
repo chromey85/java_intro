@@ -6,12 +6,13 @@ public class conditional_statements {
         if (x > 10) {
 
             System.out.println("Thats right");
-
-        } else {
-
-            System.out.println("Thats wrong");
+            System.out.println("its bigger");
 
         }
+
+        else
+
+            System.out.println("Thats wrong");
 
     }
 }

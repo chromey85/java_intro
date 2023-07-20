@@ -15,11 +15,14 @@ public class conditional_statements {
 
         // System.out.println("Thats wrong");
 
-        if (x % 2 == 0)
-            result = "It's Even";
-        else
-            result = "It's Odd";
+        // if (x % 2 == 0)
+        // result = "It's Even";
+        // else
+        // result = "It's Odd";
 
+        // System.out.println(result);
+
+        result = x % 2 == 0 ? "Its Even" : "Its Odd";
         System.out.println(result);
     }
 }

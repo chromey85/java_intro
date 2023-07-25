@@ -66,19 +66,37 @@ public class conditional_statements {
 
         // while loop:
 
-        int i = 1;
+        // int i = 1;
 
-        while (i <= 4) {
-            System.out.println("Hi " + i);
+        // while (i <= 4) {
+        // System.out.println("Hi " + i);
 
-            int j = 1;
+        // int j = 1;
 
-            while (j <= 3) {
-                System.out.println("hello " + j);
-                j++;
-            }
-            i++;
+        // while (j <= 3) { // This is a nested loop (a loop in a loop)
+        // System.out.println("hello " + j);
+        // j++;
+        // }
+        // i++;
+        // }
+        // System.out.println("Bye " + i);
+
+        // // --------------- Do While Loop
+
+        // do {
+        // System.out.println("Hi " + i);
+        // i++;
+        // } while (i <= 4);
+
+        // ---------------- for loop
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Day " + i);
+
+            // for (int h = 1; h <= 9; h++) {
+
+            // System.out.println(" " + (h + 8) + " - " + (h + 9));
+            // }
         }
-        System.out.println("Bye " + i);
     }
 }

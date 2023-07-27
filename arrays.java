@@ -39,5 +39,36 @@ public class arrays {
                 System.out.println("Array # " + i + " element # " + j + " is " + nums2[i][j]);
             }
         }
+
+        // -------------- Enhanced for loop
+
+        for (int n[] : nums2) {
+            for (int m : n) {
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
+
+        // -------------- Jagged Array
+
+        int nums3[][] = new int[3][]; // the multi-dimensional array can still be created even when the second number
+                                      // is missing, this is called a JAGGED ARRAY
+
+        nums3[0] = new int[3];
+        nums3[1] = new int[4];
+        nums3[2] = new int[2];
+
+        for (int i = 0; i < nums3.length; i++) {
+            for (int j = 0; j < nums3[i].length; j++) {
+                nums3[i][j] = (int) (Math.random() * 10);
+            }
+        }
+
+        for (int n[] : nums3) {
+            for (int m : n) {
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
 }

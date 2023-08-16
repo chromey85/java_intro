@@ -14,7 +14,7 @@ class AdvCalc extends Calc {
     }
 }
 
-public class method__Overwriting {
+public class method__Overriding {
     public static void main(String[] args) {
         AdvCalc obj = new AdvCalc();
         int r1 = obj.add(3, 4);

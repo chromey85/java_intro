@@ -1,3 +1,5 @@
+package other.tools;
+
 public class AdvCalc extends Calc {
 
     public int div(int n1, int n2) {

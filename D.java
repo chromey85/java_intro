@@ -1,7 +1,4 @@
 public class D {
-    private int marks;
+    int marks;
 
-    public void show() {
-
-    }
 }

@@ -2,11 +2,18 @@
 
 class Calc {
     public void show() {
-        System.out.println("in CALC show");
+        System.out.println("By Yusuf");
     }
 
     public void add(int a, int b) {
         System.out.println(a + b);
+    }
+}
+
+class AdvCalc extends Calc {
+    public void show() {
+        System.out.println("By Gabriel"); // This would override line 5, but to stop this, you make the method final (a
+                                          // CONST value)
     }
 }
 
@@ -20,7 +27,8 @@ public class Final {
 
         // System.out.println(num);
 
-        Calc obj = new Calc();
+        // Calc obj = new Calc();
+        AdvCalc obj = new AdvCalc();
         obj.show();
         obj.add(4, 5);
     }

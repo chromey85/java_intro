@@ -32,7 +32,20 @@ public class Functional_interface {
 
         // obj.show(5);
 
-        A obj = (int i, int j) -> return i + j;
+        // old code
+
+        // A obj = new A() {
+
+        // public int add(int i, int j)
+
+        // {
+        // return i + j;
+        // }
+        // };
+
+        // New code with Lambda expression
+
+        A obj = (int i, int j) -> i + j;
 
         int result = obj.add(5, 4);
         System.out.println(result);
